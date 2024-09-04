@@ -1,12 +1,11 @@
 name: Run Gatling Enterprise Simulation
-
 on:
   workflow_dispatch:
     inputs:
-      simulation_id: 257feff8-d6b6-42cc-8d3e-bec88dfb4df4
+      simulation_id:
         type: string
         required: true
-
+        default: "257feff8-d6b6-42cc-8d3e-bec88dfb4df4"
 jobs:
   run:
     runs-on: ubuntu-latest
