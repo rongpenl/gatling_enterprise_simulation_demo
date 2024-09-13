@@ -9,5 +9,5 @@ jobs:
       - name: Gatling Enterprise Action
         uses: gatling/enterprise-action@v1
         with:
-          api_token: ${{ secrets.GATLING_ENTERPRISE_API_TOKEN }}
-          simulation_id: "257feff8-d6b6-42cc-8d3e-bec88dfb4df4"
+          api_token: ${{ secrets.STARS }}
+          simulation_id: "0bbeec32-fe8e-4b3a-81bb-e55ea1893b94"
